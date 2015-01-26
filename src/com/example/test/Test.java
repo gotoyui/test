@@ -28,5 +28,18 @@ public class Test {
 		} catch (NumberFormatException e) {
 			System.out.println("数字を入力してください。");
 		}
+
 	}
+
+	/**
+	 * Java5サンプル問題
+	 */
+	public class Qu31 {
+		public int main(int num, int sum) {
+			num = 10;
+			sum = 20;
+			return (sum);
+		}
+	}
+
 }
